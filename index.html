@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container-fluid mt-5">
+        <div class="row">
+            <div class="input-group ml-5">
+                <input type="text" class="form-control col-3 " id="numberOfCards" placeholder="# of cards"
+                    aria-label="Recipient's username with two button addons" aria-describedby="button-addon4">
+                <div class="input-group-append" id="button-addon4">
+                    <button class="btn btn btn-dark" id="draw" type="button">Draw</button>
+                    <button class="btn btn btn-dark" id="sort" onclick="orderNumbers()" type="button">Sort</button>
+                    <button type="button" class="btn btn btn-dark" onclick="window.location.reload();" id="refresh">Refresh</button>
+                </div>
+            </div>
+        </div>
+        <div class="row cardContainer ml-4">
+
+        </div><br>
+        <div class="row cardContainer my-4 ml-4">
+            <h1>Bubble Sorting:</h1>
+        </div>
+        <div class="row cardContainer2 ml-4">
+
+        </div>
+    </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+
+
+</html>
